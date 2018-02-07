@@ -1,6 +1,7 @@
 package com.example.everis.android.introduccionaandroid;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -17,6 +18,7 @@ public class MainActivity extends Activity {
     private TextView mRightTextView;
     private ImageView mImageView;
     private Button mButton;
+    private Button mNextScreenButton;
 
     /*
     Este método se llama una sola vez por instancia, cada vez que se crea la pantalla.
@@ -32,12 +34,21 @@ public class MainActivity extends Activity {
         mRightTextView =findViewById(R.id.text_right);
         mImageView =findViewById(R.id.imageView);
         mButton = findViewById(R.id.button);
+        mNextScreenButton= findViewById(R.id.button_nextScreen);
 
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mCenterTextView.setText(R.string.text_center_alt);
                 mImageView.setImageResource(R.drawable.if_food_c240_2427880);
+            }
+        });
+
+        mNextScreenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent (MainActivity.this, AnotherActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -4,5 +4,7 @@
     <string name="text_center">Este texto está centrado, con un margen vertical de 100dp</string>
     <string name="text_right">Este texto está alineado a la derecha, con un margen vertical de 200dp</string>
     <string name="button_title">Cambiar</string>
+    <string name="change_screen">Cambiar de pantalla</string>
     <string name="text_center_alt">Este texto sigue estando centrado, pero tiene un texto distinto</string>
+    <string name="second_screen_title">Hola, soy la segunda pantalla. Gracias por visitarme :)</string>
 </resources>

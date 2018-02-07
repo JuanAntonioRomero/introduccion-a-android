@@ -48,7 +48,14 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
+        android:layout_gravity="bottom|left"
         android:text="@string/button_title" />
+
+    <Button
+        android:id="@+id/button_nextScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="@string/change_screen" />
 
 </FrameLayout>
