@@ -4,9 +4,33 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Hello World!" />
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Este texto está alineado a la izquierda, con un margen vertical de 20dp"
+        android:textColor="#f00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Este texto está centrado, con un margen vertical de 100dp"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="200dp"
+        android:gravity="right"
+        android:text="Este texto está alineado a la derecha, con un margen vertical de 200dp"
+        android:textColor="#00f"
+        android:textSize="16sp" />
 
 </FrameLayout>
