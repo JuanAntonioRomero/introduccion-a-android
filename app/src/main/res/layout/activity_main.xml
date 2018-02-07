@@ -48,7 +48,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
+        android:layout_gravity="top|right"
         android:text="@string/button_title" />
 
     <Button
@@ -57,5 +57,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:text="@string/change_screen" />
+
+    <Button
+        android:id="@+id/button_phoneCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="@string/phone_call" />
 
 </FrameLayout>

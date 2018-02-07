@@ -2,16 +2,20 @@ package com.example.everis.android.introduccionaandroid;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
     private static final String TAG = "MainActivity";
+
+    private static final int REQUEST_CODE = 1;
 
     private TextView mLeftTextView;
     private TextView mCenterTextView;
@@ -19,6 +23,7 @@ public class MainActivity extends Activity {
     private ImageView mImageView;
     private Button mButton;
     private Button mNextScreenButton;
+    private Button mPhoneCallButton;
 
     /*
     Este método se llama una sola vez por instancia, cada vez que se crea la pantalla.
@@ -29,12 +34,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Log.v(TAG, "onCreate");
 
-        mLeftTextView =findViewById(R.id.text_left);
-        mCenterTextView =findViewById(R.id.text_center);
-        mRightTextView =findViewById(R.id.text_right);
-        mImageView =findViewById(R.id.imageView);
+        mLeftTextView = findViewById(R.id.text_left);
+        mCenterTextView = findViewById(R.id.text_center);
+        mRightTextView = findViewById(R.id.text_right);
+        mImageView = findViewById(R.id.imageView);
         mButton = findViewById(R.id.button);
-        mNextScreenButton= findViewById(R.id.button_nextScreen);
+        mNextScreenButton = findViewById(R.id.button_nextScreen);
+        mPhoneCallButton = findViewById(R.id.button_phoneCall);
 
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,10 +53,32 @@ public class MainActivity extends Activity {
         mNextScreenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent (MainActivity.this, AnotherActivity.class);
+                Intent intent = new Intent(MainActivity.this, AnotherActivity.class);
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+        });
+
+        mPhoneCallButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:669123456"));
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == Activity.RESULT_OK) {
+                Toast.makeText(this, "Resultado OK", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Resultado cancelado", Toast.LENGTH_SHORT).show();
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
     }
 
     /*
