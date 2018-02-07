@@ -1,61 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_left"
-        android:layout_width="@dimen/main_text_layout_width"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginTop="@dimen/main_text_left_marginTop"
-        android:gravity="left"
-        android:text="@string/text_left"
-        android:textColor="#f00"
-        android:textSize="@dimen/main_textSize" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_center"
-        android:layout_width="@dimen/main_text_layout_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/main_text_center_marginTop"
-        android:gravity="center"
-        android:text="@string/text_center"
-        android:textColor="#000"
-        android:textSize="@dimen/main_textSize" />
+        <Button
+            android:id="@+id/button_frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout" />
 
-    <TextView
-        android:id="@+id/text_right"
-        android:layout_width="@dimen/main_text_layout_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginTop="@dimen/main_text_right_marginTop"
-        android:gravity="right"
-        android:text="@string/text_right"
-        android:textColor="#00f"
-        android:textSize="@dimen/main_textSize" />
+        <Button
+            android:id="@+id/button_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/main_imageView_marginTop"
-        android:src="@drawable/if_food_c206_2427852" />
+        <Button
+            android:id="@+id/button_gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridLayout" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:text="@string/button_title" />
-
-    <Button
-        android:id="@+id/button_nextScreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:text="@string/change_screen" />
-
-</FrameLayout>
+        <Button
+            android:id="@+id/button_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout" />
+    </LinearLayout>
+</ScrollView>

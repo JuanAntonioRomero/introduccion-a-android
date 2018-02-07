@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">An introduction to Android</string>
-    <string name="text_left">This text is left-aligned, with a 20dp vertical margin</string>
-    <string name="text_center">This text is centered, with a 100dp vertical margin</string>
-    <string name="text_right">This text is right-aligned, with a 200dp vertical margin</string>
-</resources>

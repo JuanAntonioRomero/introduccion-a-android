@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnotherActivity"></activity>
+        <activity android:name=".layouts.FrameLayoutActivity"></activity>
+        <activity android:name=".layouts.LinearLayoutActivity"></activity>
+        <activity android:name=".layouts.GridLayoutActivity"></activity>
+        <activity android:name=".layouts.RelativeLayoutActivity"></activity>
     </application>
 
 </manifest>
