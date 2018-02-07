@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_textSize">16sp</dimen>
+    <dimen name="main_text_layout_width">100dp</dimen>
+    <dimen name="main_text_left_marginTop">20dp</dimen>
+    <dimen name="main_text_center_marginTop">100dp</dimen>
+    <dimen name="main_text_right_marginTop">200dp</dimen>
+    <dimen name="main_imageView_marginTop">350dp</dimen>
+</resources>
