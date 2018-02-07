@@ -44,4 +44,11 @@
         android:layout_marginTop="@dimen/main_imageView_marginTop"
         android:src="@drawable/if_food_c206_2427852" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/button_title" />
+
 </FrameLayout>

@@ -3,10 +3,20 @@ package com.example.everis.android.introduccionaandroid;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
     private static final String TAG = "MainActivity";
+
+    private TextView mLeftTextView;
+    private TextView mCenterTextView;
+    private TextView mRightTextView;
+    private ImageView mImageView;
+    private Button mButton;
 
     /*
     Este método se llama una sola vez por instancia, cada vez que se crea la pantalla.
@@ -16,6 +26,20 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.v(TAG, "onCreate");
+
+        mLeftTextView =findViewById(R.id.text_left);
+        mCenterTextView =findViewById(R.id.text_center);
+        mRightTextView =findViewById(R.id.text_right);
+        mImageView =findViewById(R.id.imageView);
+        mButton = findViewById(R.id.button);
+
+        mButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mCenterTextView.setText(R.string.text_center_alt);
+                mImageView.setImageResource(R.drawable.if_food_c240_2427880);
+            }
+        });
     }
 
     /*
