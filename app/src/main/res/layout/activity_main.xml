@@ -31,5 +31,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RelativeLayout" />
+
+        <Button
+            android:id="@+id/button_constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ConstraintLayout" />
     </LinearLayout>
 </ScrollView>

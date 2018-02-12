@@ -19,6 +19,7 @@
         <activity android:name=".layouts.LinearLayoutActivity"></activity>
         <activity android:name=".layouts.GridLayoutActivity"></activity>
         <activity android:name=".layouts.RelativeLayoutActivity"></activity>
+        <activity android:name=".layouts.ConstraintLayoutActivity"></activity>
     </application>
 
 </manifest>
