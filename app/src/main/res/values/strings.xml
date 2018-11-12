@@ -41,4 +41,16 @@
     <string name="adventure_location_2_0">Entre la niebla puedes divisar una escarpada cordillera de montañas coronadas de nieve. Un grupo de jabalíes corretean por la ladera de una de las montañas, los lechones jugueteando entre ellos mientras los adultos se afanan buscando comida.</string>
     <string name="adventure_location_2_1">Delante tuya se alza una pequeña cabaña de piedra y puerta de madera. Parece abandonada desde hace mucho tiempo, salvo por caracoles y algún que otro murciélago que cuelga del porche delantero.</string>
     <string name="adventure_location_2_2">Un pozo se alza perdido en este lugar, último retazo de civilización en este paraje perdido. Mirando en su interior puedes ver que está seco desde hace tiempo.</string>
+
+    <string name="memory_prompt">Encuentra las parejas de ingredientes iguales. ¡Cuidado! ¡Solo te puedes equivocar 5 veces!</string>
+    <string name="memory_win">¡Enhorabuena! ¡Has ganado!</string>
+    <string name="memory_lose">Lo siento, has perdido. ¡Inténtalo otra vez!</string>
+    <string name="memory_option1">Ternera</string>
+    <string name="memory_option2">Atún</string>
+    <string name="memory_option3">Zanahoria</string>
+    <string name="memory_option4">Cebolla</string>
+    <string name="memory_option5">Rata</string>
+    <string name="memory_option6">Pollo</string>
+    <string name="memory_option7">Queso</string>
+    <string name="memory_option8">Pan</string>
 </resources>

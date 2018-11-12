@@ -18,6 +18,7 @@
         <activity android:name=".AdderGameActivity"/>
         <activity android:name=".GuessGameActivity"/>
         <activity android:name=".AdventureGameActivity"/>
+        <activity android:name=".MemoryGameActivity"/>
     </application>
 
 </manifest>
