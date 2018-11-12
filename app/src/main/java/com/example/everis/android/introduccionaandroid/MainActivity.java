@@ -48,5 +48,14 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button snapGameButton = findViewById(R.id.button_game_snap);
+        snapGameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SnapGameActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

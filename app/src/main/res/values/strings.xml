@@ -53,4 +53,9 @@
     <string name="memory_option6">Pollo</string>
     <string name="memory_option7">Queso</string>
     <string name="memory_option8">Pan</string>
+
+    <string name="snap_prompt">Pulsa en \"Empezar\" para ver un número por un momento. Intenta verlo, y luego pulsa el número que creas que es el correcto.</string>
+    <string name="snap_start">Empezar</string>
+    <string name="snap_win">¡Correcto!</string>
+    <string name="snap_lose">¡Has fallado!</string>
 </resources>
