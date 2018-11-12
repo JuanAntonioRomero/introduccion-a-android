@@ -21,5 +21,14 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button guessGameButton = findViewById(R.id.button_game_guessNumber);
+        guessGameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GuessGameActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

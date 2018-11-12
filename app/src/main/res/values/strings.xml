@@ -22,4 +22,9 @@
     <string name="adder_prompt">Dime cuántas empanadillas te has comido, y las sumaré para ti.</string>
     <string name="adder_result">Hasta ahora llevas comidas %s empanadillas.</string>
     <string name="adder_excess">Igual deberías parar ya, ¿no?</string>
+
+    <string name="guessNumber_prompt">¡He pensado un número entre 1 y 100! ¡Adivina cuál!</string>
+    <string name="guessNumber_lower">No, mi número es más bajo que ése.</string>
+    <string name="guessNumber_greater">No, mi número es más grande que ése.</string>
+    <string name="guessNumber_correct">¡Has acertado! ¡Y solo te ha llevado %s intentos!</string>
 </resources>
