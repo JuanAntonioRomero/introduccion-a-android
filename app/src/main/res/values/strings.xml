@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Introduccion a Android</string>
+    <string name="app_name">Máquina de juegos</string>
+    <string name="gameTitle_guessNumber">Adivino por un día</string>
+    <string name="gameTitle_adder">El tragón</string>
+    <string name="gameTitle_adventure">Aventura en miniatura</string>
+    <string name="gameTitle_memory">El cocinero</string>
+    <string name="gameTitle_snap">Jimmy el rápido</string>
 </resources>
