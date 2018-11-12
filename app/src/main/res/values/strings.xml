@@ -5,4 +5,21 @@
     <string name="gameTitle_adventure">Aventura en miniatura</string>
     <string name="gameTitle_memory">El cocinero</string>
     <string name="gameTitle_snap">Jimmy el rápido</string>
+
+    <string name="calculator_number0">0</string>
+    <string name="calculator_number1">1</string>
+    <string name="calculator_number2">2</string>
+    <string name="calculator_number3">3</string>
+    <string name="calculator_number4">4</string>
+    <string name="calculator_number5">5</string>
+    <string name="calculator_number6">6</string>
+    <string name="calculator_number7">7</string>
+    <string name="calculator_number8">8</string>
+    <string name="calculator_number9">9</string>
+    <string name="calculator_backspace">Del</string>
+    <string name="calculator_enter">OK</string>
+
+    <string name="adder_prompt">Dime cuántas empanadillas te has comido, y las sumaré para ti.</string>
+    <string name="adder_result">Hasta ahora llevas comidas %s empanadillas.</string>
+    <string name="adder_excess">Igual deberías parar ya, ¿no?</string>
 </resources>
