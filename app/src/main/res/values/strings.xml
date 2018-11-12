@@ -27,4 +27,18 @@
     <string name="guessNumber_lower">No, mi número es más bajo que ése.</string>
     <string name="guessNumber_greater">No, mi número es más grande que ése.</string>
     <string name="guessNumber_correct">¡Has acertado! ¡Y solo te ha llevado %s intentos!</string>
+
+    <string name="adventure_north">Norte</string>
+    <string name="adventure_south">Sur</string>
+    <string name="adventure_east">Este</string>
+    <string name="adventure_west">Oeste</string>
+    <string name="adventure_location_0_0">Una gigantesca pirámide escalonada gobierna este lugar. Parece inaccesible desde aquí abajo, sin escalones de tamaño humano a la vista. En lo alto puedes distinguir una puerta metálica doble, cerrada, con el dibujo de unos ojos que parecen mirarte desde las alturas.</string>
+    <string name="adventure_location_0_1">Una gruta en medio de una elevada pared de piedra sirve de nacimiento a un arroyuelo que discurre hacia el sureste. Un solitario salmón intenta en vano subir a contracorriente, una y otra vez.</string>
+    <string name="adventure_location_0_2">El bosque se vuelve totalmente impenetrable a este nivel, incluso para la luz. Por todas partes ves cosas moviéndose, y la textura de los troncos te hacen ver grandes ojos que te observan desde todos los ángulos.</string>
+    <string name="adventure_location_1_0">Te encuentras al borde de un desierto que llega hasta donde alcanza la vista. Dunas de fina arena montan unas sobre otras, y el reflejo del sol ciega tus ojos. No crees ser capaz de aguantar mucho tiempo en este vasto lugar de muerte.</string>
+    <string name="adventure_location_1_1">Estás justo en la frontera entre las tierras áridas del Norte y la zona húmeda y boscosa del Sur. Muy cerca hacia el Este hay una cabaña de ladrillos rodeada por un frondoso bosque. Un río poco caudaloso fluye hacia el Sur.</string>
+    <string name="adventure_location_1_2">Te has internado levemente en los lindes de un bosque húmedo y oscuro. Los árboles cada vez se cierran más, impidiéndote el paso, y cientos de extraños sonidos llenan tus oídos, desde animales correteando hasta el rumor de las hojas secas bajo tus pies.</string>
+    <string name="adventure_location_2_0">Entre la niebla puedes divisar una escarpada cordillera de montañas coronadas de nieve. Un grupo de jabalíes corretean por la ladera de una de las montañas, los lechones jugueteando entre ellos mientras los adultos se afanan buscando comida.</string>
+    <string name="adventure_location_2_1">Delante tuya se alza una pequeña cabaña de piedra y puerta de madera. Parece abandonada desde hace mucho tiempo, salvo por caracoles y algún que otro murciélago que cuelga del porche delantero.</string>
+    <string name="adventure_location_2_2">Un pozo se alza perdido en este lugar, último retazo de civilización en este paraje perdido. Mirando en su interior puedes ver que está seco desde hace tiempo.</string>
 </resources>

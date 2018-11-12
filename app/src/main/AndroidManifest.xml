@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".AdderGameActivity"/>
         <activity android:name=".GuessGameActivity"/>
+        <activity android:name=".AdventureGameActivity"/>
     </application>
 
 </manifest>
