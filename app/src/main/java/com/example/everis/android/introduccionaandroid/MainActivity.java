@@ -46,6 +46,15 @@ public class MainActivity extends Activity {
     }
 
     /*
+    Este método se llama cuando el sistema va a liberar la memoria de la Activity.
+     */
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.v(TAG, "onStop");
+    }
+
+    /*
     Este método se llama cada vez que la instancia vuelve a iniciarse tras haberse llamado a onPause.
      */
     @Override
